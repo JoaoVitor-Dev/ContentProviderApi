@@ -5,6 +5,7 @@ import android.content.ContentValues;
 import android.net.Uri;
 import android.os.Bundle;
 
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -26,6 +27,13 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        MeuObservador observador = new MeuObservador(new Handler(), this);
+        getContentResolver().registerContentObserver(
+                DadosProvider.URI_CONTEUDO,
+                true,
+                observador
+        );
 
         inserirAlunoExemplo();
 

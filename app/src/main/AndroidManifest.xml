@@ -6,6 +6,7 @@
             android:name="com.exemple.joaovitor_atividade_06.permission.READ_DATA"
             android:protectionLevel="signature" />
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <application
             android:allowBackup="true"
             android:dataExtractionRules="@xml/data_extraction_rules"

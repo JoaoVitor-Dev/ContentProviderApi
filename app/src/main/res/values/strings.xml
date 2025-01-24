@@ -2,6 +2,6 @@
     <string name="app_name">JoaoVitor_Atividade_06</string>
     <string name="por_favor_prossiga_com_o_aplicativo_de_cadastro">Por favor, prossiga com o aplicativo de cadastro</string>
     <string name="sair_do_aplicativo">Sair do aplicativo</string>
-    <string name="o_content_provider_foi_criado_com_sucesso">O Content Provider foi criado com sucesso</string>
+    <string name="o_content_provider_foi_criado_com_sucesso">Este é o aplicativo provedor de conteúdo</string>
     <string name="pronto">Pronto!</string>
 </resources>
