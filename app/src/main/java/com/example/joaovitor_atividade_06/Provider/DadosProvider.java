@@ -1,4 +1,4 @@
-package com.example.joaovitor_atividade_06;
+package com.example.joaovitor_atividade_06.Provider;
 
 import android.content.*;
 import android.database.Cursor;
@@ -34,7 +34,7 @@ public class DadosProvider extends ContentProvider
 
     private SQLiteDatabase banco;
     private static final String NOME_PROVIDER = "com.exemple.joaovitor_atividade_06";
-    protected static final Uri URI_CONTEUDO = Uri.parse("content://"+NOME_PROVIDER+"/dados");
+    public static final Uri URI_CONTEUDO = Uri.parse("content://"+NOME_PROVIDER+"/dados");
     private static final int CODIGO_URI_TODOS = 100;
     private static final UriMatcher URI_MATCHER;
 

@@ -1,6 +1,8 @@
 package com.example.joaovitor_atividade_06.Model;
 
-public class Aluno
+import java.io.Serializable;
+
+public class Aluno implements Serializable
 {
     private int id;
     private String nome;
